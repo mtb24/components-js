@@ -14,3 +14,15 @@ prop updates, and the unanchored thinking indicator. Baseline: 2 fail, 6 pass.
 Fixed: all 8 pass. Full repository: 494 tests pass.
 Build, lint, formatting, and configured API checks pass. Separate agents-ui
 TypeScript check retains exactly 12 baseline diagnostics, with none added.
+
+Reading-position follow-up (2026-10-23): FAIL for fixed true and existing any.
+In Chromium, with 13 messages, PageUp moved each viewport into older content.
+A remote agent reply delivered five seconds later moved scrollTop from 575 to
+968 and replaced the visible older messages with the latest reply. Both false
+and base-commit true (which selected no anchors) kept scrollTop at 372 and the
+same visible message/offset. This exposes the existing anchor-jump behavior to
+true callers. The earlier eight unit cases establish alias consistency, not
+reader-position preservation. No runtime code has been changed by this check.
+See reading-position-check.json for raw DOM measurements and pass/fail criteria.
+The reading-before/after images show the same failure using the immediate
+append button; asynchronous delivery independently reproduced the same result.

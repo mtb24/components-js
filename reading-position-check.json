@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-23",
+  "head": "6afb6193a6766f33ba6725f2200e3ae6a91d6b44",
+  "base": "65701808b070bfdbba6627a5758dd13988b0141b",
+  "browser": "Chromium through Codex in-app browser",
+  "scroller": "@shadcn/react 0.3.0",
+  "scenario": "13 messages; PageUp with real keyboard input in both viewports; after scrolling settles, deliver one remote agent reply (isLocal:false) on a five-second timer. No input at arrival.",
+  "passCriteria": "Same first visible message, same offset within one CSS pixel, unchanged scrollTop within one CSS pixel.",
+  "results": [
+    {
+      "mode": "scrollAnchor={true}",
+      "before": {
+        "count": 13,
+        "firstVisibleId": "message-6",
+        "firstVisibleOffset": 11.5,
+        "latestOffset": 400,
+        "mode": "scrollAnchor={true}",
+        "scrollToEndActive": "true",
+        "scrollTop": 575,
+        "visibleIds": [
+          "message-6",
+          "message-7",
+          "message-8",
+          "message-9",
+          "message-10"
+        ]
+      },
+      "after": {
+        "count": 14,
+        "firstVisibleId": "message-12",
+        "firstVisibleOffset": 7,
+        "latestOffset": 79.75,
+        "mode": "scrollAnchor={true}",
+        "scrollToEndActive": "false",
+        "scrollTop": 968,
+        "visibleIds": [
+          "message-12",
+          "message-13"
+        ]
+      },
+      "positionPreserved": false
+    },
+    {
+      "mode": "scrollAnchor=\"any\"",
+      "before": {
+        "count": 13,
+        "firstVisibleId": "message-6",
+        "firstVisibleOffset": 11.5,
+        "latestOffset": 400,
+        "mode": "scrollAnchor=\"any\"",
+        "scrollToEndActive": "true",
+        "scrollTop": 575,
+        "visibleIds": [
+          "message-6",
+          "message-7",
+          "message-8",
+          "message-9",
+          "message-10"
+        ]
+      },
+      "after": {
+        "count": 14,
+        "firstVisibleId": "message-12",
+        "firstVisibleOffset": 7,
+        "latestOffset": 79.75,
+        "mode": "scrollAnchor=\"any\"",
+        "scrollToEndActive": "false",
+        "scrollTop": 968,
+        "visibleIds": [
+          "message-12",
+          "message-13"
+        ]
+      },
+      "positionPreserved": false
+    },
+    {
+      "mode": "scrollAnchor={false}",
+      "before": {
+        "count": 13,
+        "firstVisibleId": "message-3",
+        "firstVisibleOffset": -40,
+        "latestOffset": 603,
+        "mode": "scrollAnchor={false}",
+        "scrollToEndActive": "true",
+        "scrollTop": 372,
+        "visibleIds": [
+          "message-3",
+          "message-4",
+          "message-5",
+          "message-6",
+          "message-7"
+        ]
+      },
+      "after": {
+        "count": 14,
+        "firstVisibleId": "message-3",
+        "firstVisibleOffset": -40,
+        "latestOffset": 675.75,
+        "mode": "scrollAnchor={false}",
+        "scrollToEndActive": "true",
+        "scrollTop": 372,
+        "visibleIds": [
+          "message-3",
+          "message-4",
+          "message-5",
+          "message-6",
+          "message-7"
+        ]
+      },
+      "positionPreserved": true
+    },
+    {
+      "mode": "Base commit scrollAnchor=true (baseline component; no anchors selected)",
+      "before": {
+        "count": 13,
+        "firstVisibleId": "message-3",
+        "firstVisibleOffset": -40,
+        "latestOffset": 603,
+        "mode": "scrollAnchor=\"original\"",
+        "scrollToEndActive": "true",
+        "scrollTop": 372,
+        "visibleIds": [
+          "message-3",
+          "message-4",
+          "message-5",
+          "message-6",
+          "message-7"
+        ]
+      },
+      "after": {
+        "count": 14,
+        "firstVisibleId": "message-3",
+        "firstVisibleOffset": -40,
+        "latestOffset": 675.75,
+        "mode": "scrollAnchor=\"original\"",
+        "scrollToEndActive": "true",
+        "scrollTop": 372,
+        "visibleIds": [
+          "message-3",
+          "message-4",
+          "message-5",
+          "message-6",
+          "message-7"
+        ]
+      },
+      "positionPreserved": true
+    }
+  ]
+}
