@@ -1,0 +1,62 @@
+[
+  {
+    "mode": "false",
+    "flags": [
+      "false",
+      "false",
+      "false",
+      "false",
+      "false",
+      "false",
+      "false"
+    ]
+  },
+  {
+    "mode": "user",
+    "flags": [
+      "true",
+      "false",
+      "true",
+      "false",
+      "true",
+      "false",
+      "true"
+    ]
+  },
+  {
+    "mode": "other",
+    "flags": [
+      "false",
+      "true",
+      "false",
+      "true",
+      "false",
+      "true",
+      "false"
+    ]
+  },
+  {
+    "mode": "any",
+    "flags": [
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  },
+  {
+    "mode": "true",
+    "flags": [
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true",
+      "true"
+    ]
+  }
+]
