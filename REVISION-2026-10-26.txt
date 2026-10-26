@@ -20,5 +20,4 @@ volume-hook cleanup releases analysis resources only. Custom grid children stay
 hidden for sizing and must manage any animations they own separately.
 
 Independent review: two sizing findings addressed and checked in browser.
-Screenshots are exact built-Storybook captures. No source-code artifacts or
-screenshots are included in LiveKit's code diff.
+Screenshots are exact built-Storybook captures. Screenshots and other review evidence are kept outside LiveKit's code diff.
