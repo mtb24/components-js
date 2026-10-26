@@ -1,0 +1,24 @@
+Reduced-motion revision — October 26, 2026
+Code head: c6e2251b6a42b0fa69a9bdff39325d4502a29fe9
+Supersedes the earlier wave-only static-shape screenshots in this branch.
+
+Five ReducedMotion stories in the existing Bar/Grid/Radial/Wave/Aura story files.
+No preference: visible instruction to enable prefers-reduced-motion in browser
+or system settings. Reduced preference: text state and Play animation control.
+User Play/Pause affects visualization only. No audio session is used in stories.
+Native Chromium emulation verified all five stories, both preference directions,
+explicit playback and return to text, keyboard activation, and compact text.
+Default md grid height measured 72px paused and playing; 9x9 story: 136px both.
+Compact wave Connection failed label fits a 113px-wide by 24px-high text box.
+
+512 tests pass (354 agents-ui + 120 core + 32 React + 6 styles). Build, lint,
+formatting, configured API checks, and local shadcn registry build pass.
+Standalone agents-ui TypeScript check retains the same 12 baseline diagnostics.
+Core API check remains disabled upstream. No live audio session was tested.
+The controls never call track/session stop, mute, disconnect, or restart APIs;
+volume-hook cleanup releases analysis resources only. Custom grid children stay
+hidden for sizing and must manage any animations they own separately.
+
+Independent review: two sizing findings addressed and checked in browser.
+Screenshots are exact built-Storybook captures. No source-code artifacts or
+screenshots are included in LiveKit's code diff.

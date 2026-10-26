@@ -1,0 +1,87 @@
+[
+  {
+    "kind": "bar",
+    "instruction": true,
+    "paused": {
+      "canvas": 0,
+      "height": 112,
+      "text": "Listening",
+      "width": 58.625
+    },
+    "playing": {
+      "canvas": 0,
+      "height": 112,
+      "paused": 0,
+      "width": 112
+    },
+    "stopped": "Listening"
+  },
+  {
+    "kind": "grid",
+    "instruction": true,
+    "paused": {
+      "canvas": 0,
+      "height": 136,
+      "text": "Listening",
+      "width": 136
+    },
+    "playing": {
+      "canvas": 0,
+      "height": 136,
+      "paused": 0,
+      "width": 136
+    },
+    "stopped": "Listening"
+  },
+  {
+    "kind": "radial",
+    "instruction": true,
+    "paused": {
+      "canvas": 0,
+      "height": 112,
+      "text": "Listening",
+      "width": 58.625
+    },
+    "playing": {
+      "canvas": 0,
+      "height": 112,
+      "paused": 0,
+      "width": 0
+    },
+    "stopped": "Listening"
+  },
+  {
+    "kind": "wave",
+    "instruction": true,
+    "paused": {
+      "canvas": 0,
+      "height": 112,
+      "text": "Listening",
+      "width": 112
+    },
+    "playing": {
+      "canvas": 1,
+      "height": 112,
+      "paused": 0,
+      "width": 112
+    },
+    "stopped": "Listening"
+  },
+  {
+    "kind": "aura",
+    "instruction": true,
+    "paused": {
+      "canvas": 0,
+      "height": 112,
+      "text": "Listening",
+      "width": 112
+    },
+    "playing": {
+      "canvas": 1,
+      "height": 112,
+      "paused": 0,
+      "width": 112
+    },
+    "stopped": "Listening"
+  }
+]
